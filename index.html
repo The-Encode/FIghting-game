@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<h lang="en">
     <head>
       <title>Samurai-Battle</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,13 +16,14 @@
         </style>
       </head>
       <body>
+      <div   style="background-color: rgba(12, 12, 12, 0.726); z-index: 0;">
+
 
       <video autoplay loop id="myVideo" style="position: fixed;
           right: 0;
           bottom: 0;
           min-width: 100%;
-          min-height: 100%;
-          background-color: #818df875;">
+          min-height: 100%; z-index: -1;">
       <source src="img/cherry-blossom.mp4" type="video/mp4">
       </video>
         <!-- red container div -->
@@ -89,6 +90,14 @@
                   bottom: 0;
                   left: 0;"></div>
             </div>
+            <div id="Top" style="position: absolute; top: 0px; right: -425px; bottom: 0; left: 1050px;">
+              <h1 style="color: rgb(68, 0, 32); border: 5px groove black; background-color: rgb(255, 116, 178);">Welcome to : Samurai-Fight</h1>
+            </div>
+
+            <div style="position: absolute; float: right;  top: 130px; right: 0px; bottom: 0; left: 1050px;">
+              <img src="img/samurai.jpg" alt="samurai" width="410px" height="450px" style="border: 5px groove black;"</div>
+
+            </div>
 
           </div>
           <div id="displayText" style="position: absolute; color: white; align-items: center; justify-content: center;
@@ -101,8 +110,9 @@
           </div>
           <div class="boxes" style="display: flex;">
           <canvas style="border: 9px groove rgb(0, 0, 0);"></canvas>
-        </div>
-      </div>
+          
+        </div></div>
+
         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
           integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
@@ -112,6 +122,13 @@
         <script src="js/utils.js"></script>
         <script src="js/classes.js"></script>
         <script src="index.js"></script>
+        <div style="display: flex; background-color: rgb(172, 23, 23); color: rgb(0, 0, 0); height: 80px; width: 100%; border: 5px groove black;">
+        <big style="color: bisque;">To Control PLayer1 :</big> Press: 'D' for moving forward. 'A' for moving backward, 'W' for jump,
+        "SPACBAR" to attack
+        </div><br>
+
+        <div style="width: 100%; display: flex; background-color: rgb(31, 52, 215); color: rgb(0, 0, 0); height: 70px; border: 5px groove black;"> <big style="color: bisque;">To Control PLayer2 :</big> Press:  'ArrowRight' for moving forward. 'ArrowLeft' for moving backward, 'ArrowUp' for jump,
+          "ArrowDown" to attack
+          </div>
       </body>
-      
 </html>
