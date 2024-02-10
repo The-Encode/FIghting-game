@@ -1,6 +1,7 @@
 # FIghting-game
  
-#Story-Time
+#Story-Time:
+
 The Duel at Twilight:
 
 In the land of cherry blossoms and ancient traditions, two samurai stood facing each other on a secluded hill. The sun dipped low, casting long shadows across the dew-kissed grass. Their katanas gleamed, ready for the dance of death.
